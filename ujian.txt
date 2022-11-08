@@ -1,0 +1,1 @@
+ybrać, na którą listę słów ma wskazywać dowiązanie symboliczne "/usr/share/dict/words". W ten sposób zapewnia się podstawową listę wyrazów do uproszczonego sprawdzania pisowni i wyszukiwania słów. Proszę wybrać "ręczne ustawienie dowiązań symbolicznych" aby zajmować się tym dowiązaniem samodzielnie.\n\nZaws

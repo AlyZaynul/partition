@@ -1,4 +1,5 @@
 #_  _boot  _dev_shm  _home  _tmp  _var  _var_log  _var_log_audit  _var_tmp
+#wrong need to make the folder on the usb not the rasp pi storage
 mkdir /home/pi/
 mkdir /home/pi/boot
 mkdir /home/pi/dev/shm
@@ -9,15 +10,15 @@ mkdir /home/pi/var/log
 mkdir /home/pi/var/log/audit
 mkdir /home/pi/var/tmp
 
-cp -R / /home/pi/
-cp -R /boot /home/pi/boot
-cp -R /dev/shm /home/pi/dev/shm
-cp -R /home /home/pi/home
-cp -R /var /home/pi/var
-cp -R /var/log /home/pi/var/log
-cp -R /var/tmp/audit /home/pi/var/log/audit
-cp -R /var/tmp /home/pi/var/tmp
-cp -R /tmp /home/pi/tmp
+cp -RT / /home/pi/
+cp -RT /boot /home/pi/boot
+cp -RT /dev/shm /home/pi/dev/shm
+cp -RT /home /home/pi/home
+cp -RT /var /home/pi/var
+cp -RT /var/log /home/pi/var/log
+cp -RT /var/tmp/audit /home/pi/var/log/audit
+cp -RT /var/tmp /home/pi/var/tmp
+cp -RT /tmp /home/pi/tmp
 
 mount /dev/sda1 /
 mount /dev/sda2 /boot
